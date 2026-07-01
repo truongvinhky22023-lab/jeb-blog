@@ -1,5 +1,9 @@
 async function loadUI() {
+<<<<<<< HEAD
     const userId = "621821356207767565";
+=======
+    const userId = "440837500848570376";
+>>>>>>> ac7de8137988121604168e39a0621e1c091b4801
     const url = `https://api.lanyard.rest/v1/users/${userId}`;
 
     const res = await fetch(url);
@@ -93,7 +97,11 @@ async function loadUI() {
 }
 
 async function loadStatus() {
+<<<<<<< HEAD
     const userId = "621821356207767565";
+=======
+    const userId = "440837500848570376";
+>>>>>>> ac7de8137988121604168e39a0621e1c091b4801
     const url = `https://api.lanyard.rest/v1/users/${userId}`;
 
     const res = await fetch(url);
